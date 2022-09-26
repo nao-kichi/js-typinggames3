@@ -1,0 +1,89 @@
+/* 開始前のjavascriptタイピングゲーム */
+h1 {
+  position: relative;
+  color: #333;
+  display: inline-block;
+  margin: 47px 0;
+  text-shadow: 0 0 2px white;
+  text-align: center;
+  left: 400px;
+  top: 100px;
+}
+h1:before {
+  content: "";
+  position: absolute;
+  background: #8fff82;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: -1;
+}
+
+.btn1{
+  width: 209px;
+  padding: 14px 0 16px 0;
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  background: #444;
+  line-height: 1;
+  border-radius: 50px;
+  transition: all .2s;
+  top: 450px;
+}
+/* ボタンのホバー */
+.btn1:hover{
+  opacity: 0.6;
+}
+
+/* easy */
+.btn2{
+  width: 209px;
+  padding: 14px 0 16px 0;
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  background: #444;
+  line-height: 1;
+  border-radius: 50px;
+  transition: all .2s;
+  top: 400px;
+  left: -300px;
+}
+.btn2:hover{
+  opacity: 0.6;
+}
+
+/* hard */
+.btn3{
+  width: 209px;
+  padding: 14px 0 16px 0;
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  background: #444;
+  line-height: 1;
+  border-radius: 50px;
+  transition: all .2s;
+  top: 360px;
+  left: 300px;
+}
+.btn3:hover{
+  opacity: 0.6;
+}

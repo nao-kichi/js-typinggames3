@@ -1,0 +1,85 @@
+/* 初期画面に戻る */
+
+.btn{
+  width: 209px;
+  padding: 14px 0 16px 0;
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  background: #444;
+  line-height: 1;
+  border-radius: 50px;
+  transition: all .2s;
+  top: 850px;
+  left: 150px;
+}
+/* 初期画面に戻るボタンのホバー */
+.btn:hover{
+  opacity: 0.6;
+}
+
+/* 文字サイズ */
+body {
+  font-size: 6em; 
+  text-align: center;
+}
+
+/* カウント */
+.count {
+  margin: 0;
+  font-weight: bold;
+  color: #888;
+}
+
+/* 最初の背景 スタートボタンで開始 */
+.wrap {
+  margin-top: 20px;
+  padding: 80px 40px;
+  background-color: #666;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* 入力済みの文字色 */
+.typed {
+  color: lightgreen;
+}
+
+/* ミスをした時の反応 */
+.mistyped {
+  background-color: red;
+}
+
+/* 最初のボタンのサイズ */
+button {
+  width: 209px;
+  padding: 14px 0 16px 0;
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  background: #444;
+  line-height: 1;
+  border-radius: 50px;
+  transition: all .2s;
+  top: 170px;
+  left: -150px;
+}
+button:hover{
+  opacity: 0.6;
+}
+
+h1 {
+  font-size: 20px;
+  padding: 0.5em;/*文字周りの余白*/
+  color: #010101;/*文字色*/
+  background: #c9ffda;/*背景色*/
+  border-bottom: solid 3px #8fff82;/*下線*/
+}
