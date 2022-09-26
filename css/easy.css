@@ -16,7 +16,6 @@
   top: 850px;
   left: 150px;
 }
-/* 初期画面に戻るボタンのホバー */
 .btn:hover{
   opacity: 0.6;
 }
