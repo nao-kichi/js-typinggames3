@@ -1,6 +1,6 @@
 /* 初期画面に戻る */
 .btn{
-  width: 209px;
+  width: 180px;
   padding: 14px 0 16px 0;
   font-size: 16px;
   position: relative;
@@ -19,13 +19,41 @@
 .btn:hover{
   opacity: 0.6;
 }
+@media screen and (max-width: 768px) {
+  .btn{
+    width: 180px;
+    padding: 14px 0 16px 0;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    background: #444;
+    line-height: 1;
+    border-radius: 50px;
+    transition: all .2s;
+    top: 615px;
+    left: 120px;
+  }
+  .btn:hover{
+    opacity: 0.6;
+  }
+}
 
 /* 文字サイズ */
 body {
   font-size: 6em; 
   text-align: center;
 }
-
+@media screen and (max-width: 768px) {
+/* 文字サイズ */
+body {
+  font-size: 2em; 
+  text-align: center;
+}
+}
 /* カウント */
 .count {
   margin: 0;
@@ -72,6 +100,29 @@ button {
 }
 button:hover{
   opacity: 0.6;
+}
+@media screen and (max-width: 768px) {
+/* 最初のボタンのサイズ */
+button {
+  width: 180px;
+  padding: 14px 0 16px 0;
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  background: #444;
+  line-height: 1;
+  border-radius: 50px;
+  transition: all .2s;
+  top: 120px;
+  left: -120px;
+}
+button:hover{
+  opacity: 0.6;
+}
 }
 
 /* easy modeのタイトル */
