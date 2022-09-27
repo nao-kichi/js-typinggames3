@@ -6,24 +6,10 @@
 top: -120px; /* 上から10px */
 left: 400px; /* 左から20px */
 }
-/* モバイル版 */
-/* ネオンタイトル文字 */
-@media screen and (max-width: 1020px) {
-.neonText {
-    animation: flicker 1.5s infinite alternate;
-    color: #fff;
-    position: relative; /* 今の位置を基準 */
-  top: -120px; /* 上から10px */
-  left: 190px; /* 左から20px */
-  }
-}
-/* モバイル版 */
 /* NEWGAMESネオン */
-@media screen and (max-width: 1020px) {
 h1 {
-  font-size: 3.8rem;    
-}
-}
+    font-size: 3.8rem;    
+  }
 /* Flickering animation */
 @keyframes flicker {
     
@@ -135,24 +121,7 @@ a{
     overflow: hidden;
     margin-right: 50px;
     top: 230px;
-   left: -150px;
-}
-@media screen and (max-width: 1020px) {
-    a{
-        position: relative;
-        display: inline-block;
-        padding: 25px 30px;
-        margin: 40px 0;
-        color: #03e9f4;
-        text-decoration: none;
-        text-transform: uppercase;
-        transition: 0.5s;
-        letter-spacing: 4px;
-        overflow: hidden;
-        margin-right: 50px;
-        top: 230px;
-       left: -200px;
-    }
+   left: -220px;
 }
 
 /* モバイル版 */
